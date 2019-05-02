@@ -1,0 +1,30 @@
+{
+  "name": "react-native-web-demo",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "web": "parcel index.html",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "16.8.3",
+    "react-dom": "^16.8.6",
+    "react-native": "0.59.5",
+    "react-native-web": "^0.11.2"
+  },
+  "devDependencies": {
+    "@babel/core": "7.4.4",
+    "@babel/runtime": "7.4.4",
+    "babel-jest": "24.7.1",
+    "jest": "24.7.1",
+    "metro-react-native-babel-preset": "0.54.0",
+    "parcel-bundler": "^1.12.3",
+    "react-test-renderer": "16.8.3"
+  },
+  "alias": {
+    "react-native": "react-native-web"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
